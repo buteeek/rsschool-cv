@@ -2,9 +2,7 @@
     font-family: Oswald;
      src: url("assets/fonts/static/Oswald.ttf");
    }
- 
-
-html {
+ html {
     scroll-behavior: smooth;
   }
   * {
@@ -22,9 +20,7 @@ html {
     line-height: 1.5em;
     background-color: #fff;
   }
-
-
-  body {
+body {
     display: flex;
     flex-direction: column;
     justify-content: space-between;
@@ -41,7 +37,6 @@ pre {
     padding-top: 15px;
 
 }
-
 .container {
     max-width: 1440px;
     margin: auto;
@@ -52,58 +47,58 @@ pre {
     align-items: center;
 
   }
-  .nav-list {
+.nav-list {
     list-style: none;
   }
-  .nav-link {
+.nav-link {
     padding: 0 20px;
     line-height: 40px;
     color: rgb(17, 17, 17);
   }
-  html {
+.html {
     scroll-behavior: smooth; 
   }
-  .nav-link {
+.nav-link {
     transition: .3s;
   }
-  .section-item a {
+.section-item a {
     color: #5a6d5c;
     text-decoration: none;  
     transition: color 0.5s;
   }
-  .section-item a:hover {
+.section-item a:hover {
     color: #4d2323;
   }
-  main {
+.main {
       margin-left:80px;
      
   }
-  .main-container {
+.main-container {
     display: flex;
     flex-wrap: wrap;
   }
   
-  .section {
+.section {
     width: 80%;
     margin: 0 auto;
   }
-  @media (max-width: 768px) {
+@media (max-width: 768px) {
     .section {
       width: 100%;
     }
   }
-  .rightimg  {
+.rightimg  {
     float: right; 
     margin: 7px 0 7px 7px;
     border-radius: 150px; 
     border: 3px solid rgb(236, 140, 236); 
     box-shadow: 0 0 15px rgb(238, 122, 241); 
   }
-  p {
+.p {
       width: 50%;
   }
-  .nav-footer {
+.nav-footer {
     padding: 0 20px;
     line-height: 40px;
     color: rgb(17, 17, 17);
-  }
+}
